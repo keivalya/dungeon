@@ -4,7 +4,7 @@
 ![Dungeons](https://i.pinimg.com/originals/4f/21/b5/4f21b56db5008735dfe203660aa663b0.jpg)
 ## The game is a simple decision making game where users are provided with options and they pick their choice. On picking a choice a user progresses into a new set of choices. Each choice provides a new and unique path. The choices made by the user decides how the game progresses.
 
-### The game is made using if-elif-else conditions and is a project of the beginners, for the beginners and by the begineers.
+### The game is made using if-elif-else conditions and is a project of the beginners, for the beginners and by the beginners.
 
 ## Requirements:
    - Python3
