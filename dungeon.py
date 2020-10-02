@@ -57,6 +57,11 @@ if age >= 16:
                             health += 5
                     else:
                         print("You don't feel healthier, but you enjoyed a nice conversation while eating the delicious meal.")
+                    print("You thank your new friend for his hospitality and continue your journey.")
+                    if health == 20:
+                        print("Thanks for playing. You performed really well and managed to keep all of your health")
+                    else:
+                        print("Thanks for playing. You lost some of your health, but you managed to survive through the rough parts of your journey.")
                 elif greet_or_fight == "fight":
                     print("You charge at the man and tackle him down to the ground. He takes out a knife and slashes you near your gut.")
                     health -= 15
@@ -64,7 +69,7 @@ if age >= 16:
                         print("You died over a meal that you didn't even get to taste. Was it worth it?")
                     else:
                         print("You survive the first slash and manage wrestle the knife out of his hand.")
-                        print("You leap for the knife and threaten to harm your opponent if he doesn't give you his entire meal. He yields and allows you toleave with his knife and the meal.")
+                        print("You leap for the knife and threaten to harm your opponent if he doesn't give you his entire meal. He yields and allows you to leave with his knife and the meal.")
                         print("You recover a large amount of health after eating the entire meal.")
                         # TODO Change if health shouldn't be capped at 20
                         if health < 3:
