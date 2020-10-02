@@ -1,13 +1,15 @@
 print("DUNGEON GAME! Make your choices, well")
 
 name= input("Hey! What's yout name? ")
-age = int(input("How old are you? "))
+age = input("How old are you? ")
 
+while (not age.isnumeric()) or int(age) < 0:
+    age = input("That age doesn't seem right.\nCan you enter you current age?")
+
+age = int(age)
 print("Namaste", name, "so you're", age, "huh!")
 
 health = 20
-
-print("You are starting with", health, "health")
 
 if age>=16:
     print("You're old enough to play!")
@@ -15,6 +17,7 @@ if age>=16:
     wants2play = input("Do you want to play?(yes/no) ").lower()
     if wants2play == "yes":
         print("Let's PLAY!")
+        print("You are starting with", health, "health")
         lor = input("First choice... Left or Right (left/right)?").lower()
         if lor =="left":
             ans = input("Alright! Now you followed the path, exhausted, you walk and reach out to a lake. You quench your thirst. Do you swim across or go around (across, around)?").lower()
