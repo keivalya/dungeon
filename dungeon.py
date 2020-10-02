@@ -12,10 +12,10 @@ print("Namaste", name, "so you're", age, "huh!")
 
 health = 20
 
-print("You are starting with", health, "health")
-
 if age >= 16:
     print("You're old enough to play!")
+
+    print("You are starting with", health, "health")
 
     wants2play = input("Do you want to play? ").lower()
     if wants2play == "yes":
