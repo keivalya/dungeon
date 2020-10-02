@@ -1,7 +1,9 @@
 # dungeon
 
-###Basic game made using if-elif-else conditions.Project for beginners.
-####How To Play :
+### Basic game made using if-elif-else conditions.Project for beginners.
+
+#### How To Play :
+
 This is an interactive read and respond game, so read, follow on and try to Win!
 
 1. Simply enter your details first.
