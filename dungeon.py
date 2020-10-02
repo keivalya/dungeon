@@ -12,7 +12,7 @@ print("You are starting with", health, "health")
 if age>=16:
     print("You're old enough to play!")
 
-    wants2play = input("Do you want to play? ").lower()
+    wants2play = input("Do you want to play?(yes/no) ").lower()
     if wants2play == "yes":
         print("Let's PLAY!")
         lor = input("First choice... Left or Right (left/right)?").lower()
