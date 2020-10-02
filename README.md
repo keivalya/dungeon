@@ -1,9 +1,17 @@
-# dungeon
+# Dungeon
+
 Basic game made using if-elif-else conditions. Project for beginners.
-How To Play :
-	This is an interactive read and respond game, so read, follow on and try to Win! 
-		1) Simply enter your details first
-		2) You will be prompted to respond to certain tasks (as questions), response choices will be provided.
-		Eg. Would you like to turn left or right (Enter "left" or "right")
-		3) A right choice/response will lead to closer to Win. A wrong may result in a loss.
-		4) If you manage to respond correctly to almost all tasks, well, YOU WIN!  
+
+## Requirements
+* Python 3
+
+
+## How To Play :
+This is an interactive game. You will have to to choose between two options at every step. Your choices will determine the outcome of the game.
+
+1. Enter your basic details first.
+2. You will be prompted to respond to certain situations. The options will be provided.
+3. A right choice made will lead you closer to a win. A wrong choice may result in you loosing the game.
+4. The objective of the game is to win.
+
+Enjoy!
