@@ -1,8 +1,12 @@
 print("DUNGEON GAME! Make your choices, well")
 
 name= input("Hey! What's yout name? ")
-age = int(input("How old are you? "))
+age = input("How old are you? ")
 
+while (not age.isnumeric()) or int(age) < 0:
+    age = input("That age doesn't seem right.\nCan you enter you current age?")
+
+age = int(age)
 print("Namaste", name, "so you're", age, "huh!")
 
 health = 20
