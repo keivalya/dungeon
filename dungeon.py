@@ -1,3 +1,13 @@
+def quest(quest,options,answer):
+    print(quest)
+    for v in options:
+        print v
+    if(input("what would you choose ?  ")==answer):
+        print('congrats')
+    else:
+        print('next luck next Time')
+     
+
 print("DUNGEON GAME! Make your choices, well")
 
 name= input("Hey! What's yout name? ")
@@ -10,7 +20,7 @@ health = 20
 print("You are starting with", health, "health")
 
 if age>=16:
-    print("You're old enough to play!")
+    print("welcome! You're old enough to play!")
 
     wants2play = input("Do you want to play? ").lower()
     if wants2play == "yes":
@@ -45,3 +55,4 @@ if age>=16:
     
 else:
     print("You're not old enough. SORRY :(")
+    print('But your are welcome to retunr when you have the age")
