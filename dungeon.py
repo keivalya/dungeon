@@ -34,7 +34,13 @@ if age>=16:
                     print("You now have 0 health and you lost the game...")
                 else:
                     print("You have survived ... You win!")
-
+            if ans == "river":
+                ride = input("Would you like to take boat ride in river (yes/no)? ")
+                if ride == "yes":
+                    print("Ohhh water entered into boat!")
+                    print("Alas!!!  You Lost!")
+                else:
+                    print("Mad you can't cross river without boat, You lost!!!")
             else:
                 print("You lost dummy. This is not even a choiceee!!")
         else:
