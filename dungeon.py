@@ -7,14 +7,13 @@ print("Namaste", name, "so you're", age, "huh!")
 
 health = 20
 
-print("You are starting with", health, "health")
-
 if age>=16:
     print("You're old enough to play!")
 
     wants2play = input("Do you want to play?(yes/no) ").lower()
     if wants2play == "yes":
         print("Let's PLAY!")
+        print("You are starting with", health, "health")
         lor = input("First choice... Left or Right (left/right)?").lower()
         if lor =="left":
             ans = input("Alright! Now you followed the path, exhausted, you walk and reach out to a lake. You quench your thirst. Do you swim across or go around (across, around)?").lower()
