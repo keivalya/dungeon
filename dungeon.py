@@ -1,7 +1,7 @@
 from info import PlayerInfo as info
 from Game import Game as game
 
-print("DUNGEON GAME! Make your choices, well")
+print("DUNGEON GAME!\n Make your choices, well")
 class Flow:
 
     def main(self):
@@ -12,7 +12,8 @@ class Flow:
         """
         _age= info.getInfo(self)
         _flag = game.check_age(_age)
-        if _flag == False:exit()
+        if _flag == False:
+            exit()
         game.wantsToPlay(0)
 
 """
