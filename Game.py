@@ -15,6 +15,7 @@ class Game:
         else:
             print("You're not old enough. SORRY :(")
         return False
+
     def wantsToPlay(Self):
         """
         Real fun begins here...
@@ -42,13 +43,13 @@ class Game:
                 if ans == "house":
                     print(
                         "You go to the house and are greeted by a beautiful mistress... She doesn't like the way you behave and you lose 5 health")
-                    health -= 10
+                    health -= 5
 
                     if health <= 0:
                         print("You now have 0 health and you lost the game...")
                     else:
                         print("You have survived ... You win!")
-                if ans == "river":
+                elif ans == "river":
                     ride = input("Would you like to take boat ride in river (yes/no)? ")
                     if ride == "yes":
                         print("Ohhh water entered into boat!")
