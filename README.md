@@ -6,6 +6,7 @@
 
 ### The game is made using if-elif-else conditions and is a project of the beginners, for the beginners and by the beginners.
 
+#### PS: The person who owns this repo is mere face of it, it's you who is making a difference! Keep contributing :)
 
 ## Requirements:
    - Python3
