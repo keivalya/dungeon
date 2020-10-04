@@ -1,5 +1,5 @@
 from info import PlayerInfo
-global health
+
 health = 20
 class Game:
 
@@ -21,6 +21,7 @@ class Game:
         :return:
         Nothing
         """
+        global health
         wants2play = input("Do you want to play?(yes/no) ").lower()
         if wants2play == "yes":
             print("Let's PLAY!")
