@@ -15,14 +15,13 @@
 
 _This is an interactive read and respond game, so read, follow on and try to Win!_ 
 
-1. Simply enter your details first.(The game is for age 16 and above.)
+1. Simply enter your details first. (The game is for age 16 and above.)
 2. You will be prompted to respond to certain tasks (as questions), response choices will be provided.
    Eg. Would you like to turn left or right (Enter "left" or "right")
 3. A right choice/response will take you closer to winning whereas a wrong choice would result in a loss.
 4. If you manage to respond correctly to almost all tasks, well, YOU WIN!
 
 
-### So what are you waiting for....
-### See you in the dungeon!!!
-### Hope you enjoy it!!
+### So, what are you waiting for?
+### Buckle up your shoes and dive into DUNGEON!!!
 
