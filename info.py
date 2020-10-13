@@ -6,7 +6,7 @@ class PlayerInfo():
         :return:
         age
         """
-        name= input("Hey! What's yout name? ")
-        age= int(input("How old are you? "))
+        name = input("Hey! What's your name? ")
+        age = int(input("How old are you? "))
         print("Namaste", name, "so you're", age, "huh!")
         return age
