@@ -10,11 +10,11 @@ class Flow:
         :return:
         Fun ;)
         """
-        _age= info.getInfo(self)
-        _flag = game.check_age(_age)
+        _age = info.getInfo(self)
+        _flag = game.check_age(self, _age)
         if _flag == False:
             exit()
-        game.wantsToPlay(0)
+        game.wants_to_play(0)
 
 """
 Here object created and and called main method

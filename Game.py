@@ -69,9 +69,7 @@ class Game:
             print("Well, see you soon!")
 
 # uncomment to play the game 
-'''
-user = Game()
-if user.check_age(18):
-    user.wants_to_play()
-'''
+
+
+
 
