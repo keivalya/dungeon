@@ -57,3 +57,6 @@ def main(player):
                 raise ValueError
         except ValueError:
             pass
+
+    print("You managed to finish the dungeon, good job!")
+    input("Press <Enter> to return to MENU.")
