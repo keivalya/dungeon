@@ -31,6 +31,7 @@ class Game:
             if choice1 == "left":
                 ans = input(
                     "Alright! Now you followed a path downhill, exhausted, you reached down to a lake. You quench your thirst. Do you swim across or go around the lake? (across, around) ").lower()
+                #This is not a break, both answers point to the same stage of the game.
                 if ans == "around":
                     print(
                         "You are a wise person choosing a looooooooong way to reach his/her destination. Hardwork always pays off! You walked around to the other side of the lake.")
@@ -42,18 +43,18 @@ class Game:
                 else:
                     print('Invalid option. Please try to type carefully!')
 
-                    ans = input("You notice a house and a car. What would you choose? (house/car) ").lower()
-                    if ans == "house":
-                        print("You went to the house and was greeted by a beautiful mistress. She didn't like your behaviour and thus deducted 5 points from your health level bar!")
-                        health -= 5
-                        print('You have %s life remaining' % health)
-                        ans = input("There are only two ways to escape the mistress. Outside or down the stairs to the dungeon. Where would you go? (outside/dungeon)").lower()
-                        if ans == "dungeon":
-                            print("Aren't you the brave type :) WELCOME TO THE DUNGEON! See you at Dungeon 2.0")
-                        elif ans == "outside":
-                            print("You can't get to the car this time, cause you get eaten by a beast!!!")
-                        else:
-                            print('Invalid option. Please try to type carefully!')
+                ans = input("You notice a house and a car. What would you choose? (house/car): ").lower()
+                if ans == "house":
+                    print("You went to the house and was greeted by a beautiful mistress. She didn't like your behaviour and thus deducted 5 points from your health level bar!")
+                    health -= 5
+                    print('You have %s life remaining' % health)
+                    ans = input("There are only two ways to escape the mistress. Outside or down the stairs to the dungeon. Where would you go? (outside/dungeon): ").lower()
+                    if ans == "dungeon":
+                        print("Aren't you the brave type :) WELCOME TO THE DUNGEON! See you at Dungeon 2.0")
+                    elif ans == "outside":
+                        print("You can't get to the car this time, cause you get eaten by a beast!!!")
+                    else:
+                        print('Invalid option. Please try to type carefully!')
 
                     # This statement is not really needed in this  version of the game.
                     # if health <= 0:
@@ -63,18 +64,18 @@ class Game:
                     #     print("HURAYY!")
                     #     print("You have survived. VICTORY!")
 
-                    elif ans == "car":
-                        ride = input("Would you like to go for a ride with the car (yes/no)? ")
-                        if ride == "yes":
-                            print("Ohhh You can't drive!")
-                            print("You crashed!!!  You Lost!!!")
-                        elif ride == 'no':
-                            print("Mad you can't sit there all night, there are creatures lurking everywhere! You lost!!!")
-                        else:
-                            print('Invalid option. Please try to type carefully!')
-
+                elif ans == "car":
+                    ride = input("Would you like to go for a ride with the car (yes/no)? ")
+                    if ride == "yes":
+                        print("Ohhh You can't drive!")
+                        print("You crashed!!!  You Lost!!!")
+                    elif ride == 'no':
+                        print("Mad you can't sit there all night, there are creatures lurking everywhere! You lost!!!")
                     else:
-                        print("You lost dummy. This is not even a choice!")
+                        print('Invalid option. Please try to type carefully!')
+
+                else:
+                    print("You lost dummy. This is not even a choice!")
             elif choice1 == "right":
                 print("Right is not always the best choice! You fell down into a well, blind person! You lost.")
 
