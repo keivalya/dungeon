@@ -31,4 +31,4 @@ _This is an interactive read and respond game, so read, follow on and try to Win
 2. Clone the forked repository
 3. Update game files and make more interactive/adventurous
 4. Create a new branch
-5. Open a Pull Request
+5. Open a Pull Request.

@@ -8,6 +8,6 @@ class PlayerInfo():
         """
         name = input("Hey! What's your name? ")
         age = int(input(name + " How old are you? "))
-        print("Name", name, "so you're", age, "huh!")
+        print(name, "so you're", age, "huh!")
         return age
 
